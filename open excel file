@@ -1,0 +1,11 @@
+import pandas as pd
+
+file_path = r"C:\Users\saiva\OneDrive\TERM 4\DBA\chatbot\chatbot_data.xlsx"  # Make sure it's pointing to a file
+df = pd.read_excel(file_path, engine="openpyxl")
+
+print(df.head())
+
+
+
+
+
